@@ -1,0 +1,16 @@
+{
+"authentication":{
+   "blockUnknown": true,
+   "class":"solr.BasicAuthPlugin",
+   "credentials":{"myuser":"k0d1RI9TdujYESAi1965Sy1vRYeswSJ6mdMY8noxRfI= dmFlQ2ViZWVqb2ljaDRhZXBoM2Fpc2hhaE5lbmU1ZWl6OGx1aTJvZWZvM29oZjZl"}, // generate the hash from the provided solr-password.sh script
+   "realm":"My Solr users"
+   "forwardCredentials": false,
+   "requireSsl": true
+},
+"authorization":{
+   "class":"solr.RuleBasedAuthorizationPlugin",
+   "permissions":[
+     {"name":"security-edit", "role":"admin"}
+   ],
+   "user-role":{"muyser":"admin"}
+}}
