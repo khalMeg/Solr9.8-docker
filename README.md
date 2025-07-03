@@ -1,4 +1,4 @@
-# Solr Docker Installation with Authentication and TLS
+# Solr Docker Installation with Authentication
 
 This repository provides a secure Solr installation using Docker Compose, featuring:
 - Basic authentication with password hashing
@@ -10,15 +10,6 @@ This repository provides a secure Solr installation using Docker Compose, featur
 1. Docker and Docker Compose installed
 2. `pwgen` installed (for password generation)
 3. `openssl` installed (for TLS certificate generation)
-
-## Repository Structure
-
-```
-solr-docker/
-├── docker-compose.yml          # Docker Compose configuration
-├── solr-password.sh            # Password hash generator
-├── security.json               # Authentication configuration
-```
 
 ## Setup Instructions
 
